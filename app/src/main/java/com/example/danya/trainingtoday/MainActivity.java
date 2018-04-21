@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
    static LinearLayout linLayout;
     int version = 999;
     ListView lvMain;
+    int a;
   static   ArrayList<String> arr;
     final String LOG_TAG = "myLogs";
     int i=0;

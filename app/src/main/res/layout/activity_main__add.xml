@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.danya.trainingtoday.Main_Add">
+
+    <EditText
+        android:id="@+id/edit_exetcise_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Exercise"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_quantity_Approaches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="approaches"
+        android:inputType="number"
+
+
+        />
+
+    <Button
+        android:id="@+id/btn_exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:gravity="center"/>
+
+</LinearLayout>
